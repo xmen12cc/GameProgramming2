@@ -354,6 +354,13 @@
 -analyzer:"C:/Program Files/Unity 2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ChangeColor.cs"
 "Assets/Scripts/DrawLines.cs"
+"Assets/Scripts/Lab 2/AttackState.cs"
+"Assets/Scripts/Lab 2/ChaseState.cs"
+"Assets/Scripts/Lab 2/FleeToHQState.cs"
+"Assets/Scripts/Lab 2/GuardAgent.cs"
+"Assets/Scripts/Lab 2/PatrolState.cs"
+"Assets/Scripts/Lab 2/RestState.cs"
+"Assets/Scripts/Lab 2/State.cs"
 -langversion:9.0
 /deterministic
 /optimize+
