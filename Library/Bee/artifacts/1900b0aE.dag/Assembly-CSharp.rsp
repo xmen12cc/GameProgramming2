@@ -361,6 +361,11 @@
 "Assets/Scripts/Lab 2/PatrolState.cs"
 "Assets/Scripts/Lab 2/RestState.cs"
 "Assets/Scripts/Lab 2/State.cs"
+"Assets/Scripts/Lab3/BetterFSM.cs"
+"Assets/Scripts/Lab4/Grid.cs"
+"Assets/Scripts/Lab4/Node.cs"
+"Assets/Scripts/Lab4/PathFinding.cs"
+"Assets/Scripts/Lab4/PathVisualizer.cs"
 -langversion:9.0
 /deterministic
 /optimize+

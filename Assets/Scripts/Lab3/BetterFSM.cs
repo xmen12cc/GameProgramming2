@@ -52,17 +52,21 @@ public class BetterFSM : MonoBehaviour
 
     private void HandleTransitions()
     {
-        if ()
+        if (IsEnemyInSight()) 
         {
             ChangeState("Chase");
         }
-        else if ()
+        else if (IsEnemyInRange()) 
         {
             ChangeState("Attack");
         }
-        else if ()
+        else if (IsHealthLow()) 
         {
             ChangeState("FleeToHQ");
+        }
+        else
+        {
+            ChangeState("Patrol");
         }
     }
 
@@ -78,4 +82,8 @@ public class BetterFSM : MonoBehaviour
             Debug.LogError("State not found: " + newState);
         }
     }
+
+    private bool IsEnemyInSight() { return false; }
+    private bool IsEnemyInRange() { return false; }
+    private bool IsHealthLow() { return false; }
 }
