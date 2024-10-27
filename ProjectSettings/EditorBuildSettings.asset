@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PathFindingScene.unity
+    guid: 2b5dddc0157006c41af182f7a78af394
   m_configObjects: {}
