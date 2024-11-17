@@ -461,6 +461,7 @@
 "Assets/Scripts/Lab5/PathFinding.cs"
 "Assets/Scripts/Lab6/CheckHealthThresholdCondition.cs"
 "Assets/Scripts/Lab6/MoveToTargetAction.cs"
+"Assets/Scripts/Lab7/AnimationEventHandler.cs"
 -langversion:9.0
 /deterministic
 /optimize+
