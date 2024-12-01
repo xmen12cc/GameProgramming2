@@ -454,6 +454,7 @@
 "Assets/Scripts/Lab 2/PatrolState.cs"
 "Assets/Scripts/Lab 2/RestState.cs"
 "Assets/Scripts/Lab 2/State.cs"
+"Assets/Scripts/Lab 9/VolumeManager.cs"
 "Assets/Scripts/Lab3/BetterFSM.cs"
 "Assets/Scripts/Lab4/PathVisualizer.cs"
 "Assets/Scripts/Lab5/Grid.cs"
