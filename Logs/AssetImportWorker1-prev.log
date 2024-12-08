@@ -15,7 +15,7 @@ C:/Users/alber/Desktop/Codes/GameProgramming2
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-53014
+52867
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,14 +59,14 @@ C:/Users/alber/Desktop/Codes/GameProgramming2
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [18956]  Target information:
+Player connection [9404]  Target information:
 
-Player connection [18956]  * "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 4133033149 [EditorId] 4133033149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B334PCK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9404]  * "[IP] 169.254.5.254 [Port] 0 [Flags] 2 [Guid] 1222066125 [EditorId] 1222066125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B334PCK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18956]  * "[IP] 169.254.5.254 [Port] 0 [Flags] 2 [Guid] 4133033149 [EditorId] 4133033149 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B334PCK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [9404]  * "[IP] 192.168.1.8 [Port] 0 [Flags] 2 [Guid] 1222066125 [EditorId] 1222066125 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B334PCK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [18956] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [18956] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9404] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9404] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -77,8 +77,8 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 7.43 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 5.73 ms.
+Refreshing native plugins compatible for Editor in 7.72 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 5.00 ms.
 Initialize engine version: 6000.0.26f1 (ccb7c73d2c02)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/alber/Desktop/Codes/GameProgramming2/Assets
@@ -93,44 +93,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007020 seconds.
-- Loaded All Assemblies, in  0.456 seconds
+Registered in 0.007901 seconds.
+- Loaded All Assemblies, in  0.476 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.325 seconds
-Domain Reload Profiling: 770ms
-	BeginReloadAssembly (177ms)
+- Finished resetting the current domain, in  0.363 seconds
+Domain Reload Profiling: 828ms
+	BeginReloadAssembly (173ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (68ms)
-	LoadAllAssembliesAndSetupDomain (152ms)
-		LoadAssemblies (164ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (161ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (147ms)
-				TypeCache.ScanAssembly (133ms)
+		AnalyzeDomain (169ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (325ms)
+	FinalizeReload (363ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (296ms)
+		SetupLoadedEditorAssemblies (314ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (28ms)
+			InitializePlatformSupportModulesInManaged (34ms)
 			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (192ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
@@ -139,190 +139,325 @@ Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  1.473 seconds
+- Loaded All Assemblies, in  1.506 seconds
 Script 'Grid' has the same name as built-in Unity component.
 AddComponent and GetComponent will not work with this script.
-Refreshing native plugins compatible for Editor in 7.50 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 5.92 ms, found 5 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.049 seconds
-Domain Reload Profiling: 2496ms
-	BeginReloadAssembly (496ms)
+- Finished resetting the current domain, in  1.102 seconds
+Domain Reload Profiling: 2586ms
+	BeginReloadAssembly (545ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
+		CreateAndSetChildDomain (41ms)
 	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (59ms)
-	LoadAllAssembliesAndSetupDomain (846ms)
-		LoadAssemblies (692ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (838ms)
+		LoadAssemblies (695ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (311ms)
-			TypeCache.Refresh (236ms)
-				TypeCache.ScanAssembly (217ms)
-			BuildScriptInfoCaches (67ms)
+		AnalyzeDomain (290ms)
+			TypeCache.Refresh (220ms)
+				TypeCache.ScanAssembly (201ms)
+			BuildScriptInfoCaches (62ms)
 			ResolveRequiredComponents (5ms)
-	FinalizeReload (1049ms)
+	FinalizeReload (1103ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (855ms)
+		SetupLoadedEditorAssemblies (898ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (163ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (236ms)
-			AfterProcessingInitializeOnLoad (24ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (162ms)
+			ProcessInitializeOnLoadAttributes (444ms)
+			ProcessInitializeOnLoadMethodAttributes (258ms)
+			AfterProcessingInitializeOnLoad (25ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (8ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 7.47 ms, found 5 plugins.
-Preloading 1 native plugins for Editor in 0.19 ms.
+Refreshing native plugins compatible for Editor in 6.25 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
 Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5838 unused Assets / (1.6 MB). Loaded Objects now: 6427.
-Memory consumption went from 145.5 MB to 143.9 MB.
-Total: 9.489700 ms (FindLiveObjects: 0.836100 ms CreateObjectMapping: 0.432400 ms MarkObjects: 6.483800 ms  DeleteObjects: 1.736300 ms)
+Unloading 5839 unused Assets / (1.4 MB). Loaded Objects now: 6428.
+Memory consumption went from 143.7 MB to 142.2 MB.
+Total: 8.398500 ms (FindLiveObjects: 0.714600 ms CreateObjectMapping: 0.334300 ms MarkObjects: 6.139600 ms  DeleteObjects: 1.209200 ms)
 
 ========================================================================
+Received Prepare
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.88 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5833 unused Assets / (3.0 MB). Loaded Objects now: 6429.
+Memory consumption went from 139.9 MB to 136.9 MB.
+Total: 10.212000 ms (FindLiveObjects: 0.679700 ms CreateObjectMapping: 0.341700 ms MarkObjects: 6.583900 ms  DeleteObjects: 2.605700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.352 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.77 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.087 seconds
+Domain Reload Profiling: 2418ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (941ms)
+		LoadAssemblies (783ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (298ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1087ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (857ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (168ms)
+			ProcessInitializeOnLoadAttributes (393ms)
+			ProcessInitializeOnLoadMethodAttributes (263ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 8.02 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5852 unused Assets / (2.9 MB). Loaded Objects now: 6433.
+Memory consumption went from 142.0 MB to 139.0 MB.
+Total: 16.129700 ms (FindLiveObjects: 1.008700 ms CreateObjectMapping: 0.573400 ms MarkObjects: 10.297600 ms  DeleteObjects: 4.248200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.139 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 5.99 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.023 seconds
+Domain Reload Profiling: 2142ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (717ms)
+		LoadAssemblies (661ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (207ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (191ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1024ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (813ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (392ms)
+			ProcessInitializeOnLoadMethodAttributes (238ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 6.45 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5852 unused Assets / (2.9 MB). Loaded Objects now: 6436.
+Memory consumption went from 143.9 MB to 141.0 MB.
+Total: 11.543900 ms (FindLiveObjects: 0.747400 ms CreateObjectMapping: 0.421800 ms MarkObjects: 8.105400 ms  DeleteObjects: 2.267700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
 Received Import Request.
-  Time since last request: 14058.964842 seconds.
-  path: Assets/Scripts/DrawLines.cs
-  artifactKey: Guid(3a868f3d464ec794a9fbab2be99e67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DrawLines.cs using Guid(3a868f3d464ec794a9fbab2be99e67a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '722882588a6b69778a753d909e4754f9') in 0.01132 seconds
+  Time since last request: 1963.230074 seconds.
+  path: Assets/Scripts/Lab 9/VolumeManager.cs
+  artifactKey: Guid(d2380dee26cd21946838caea511fb174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Lab 9/VolumeManager.cs using Guid(d2380dee26cd21946838caea511fb174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'deb58a609ea6fe762073517d90ea219a') in 0.0082376 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 302.994399 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/firing rifle.fbx
-  artifactKey: Guid(49b7d019cf4e8f0429c2e43572305ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/firing rifle.fbx using Guid(49b7d019cf4e8f0429c2e43572305ddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c90703f28d90420dcadc632f65c74282') in 0.0411086 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.087 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.05 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.079 seconds
+Domain Reload Profiling: 2146ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (699ms)
+		LoadAssemblies (621ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (219ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (201ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (1080ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (867ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (401ms)
+			ProcessInitializeOnLoadMethodAttributes (268ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.41 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5852 unused Assets / (2.7 MB). Loaded Objects now: 6441.
+Memory consumption went from 144.5 MB to 141.7 MB.
+Total: 9.463400 ms (FindLiveObjects: 0.638500 ms CreateObjectMapping: 0.330700 ms MarkObjects: 6.145900 ms  DeleteObjects: 2.347500 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/walking backwards.fbx
-  artifactKey: Guid(bbcfa0e5130b6e34a872bda0122b9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/walking backwards.fbx using Guid(bbcfa0e5130b6e34a872bda0122b9c01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77de4b81eadf5ea03c6a76579449824d') in 0.0049574 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.135 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.19 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.072 seconds
+Domain Reload Profiling: 2187ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (755ms)
+		LoadAssemblies (647ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (246ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (225ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (862ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (163ms)
+			ProcessInitializeOnLoadAttributes (399ms)
+			ProcessInitializeOnLoadMethodAttributes (264ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 6.60 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5852 unused Assets / (2.7 MB). Loaded Objects now: 6444.
+Memory consumption went from 144.5 MB to 141.8 MB.
+Total: 9.642100 ms (FindLiveObjects: 0.666000 ms CreateObjectMapping: 0.381200 ms MarkObjects: 6.396200 ms  DeleteObjects: 2.197700 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/strafe (2).fbx
-  artifactKey: Guid(eec60b4d0ab3f234e885287ddbbba390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/strafe (2).fbx using Guid(eec60b4d0ab3f234e885287ddbbba390) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7119cfcd076dffef313e3540643d03f4') in 0.002691 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.110 seconds
+Script 'Grid' has the same name as built-in Unity component.
+AddComponent and GetComponent will not work with this script.
+Refreshing native plugins compatible for Editor in 6.52 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.082 seconds
+Domain Reload Profiling: 2169ms
+	BeginReloadAssembly (263ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (727ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (226ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1083ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (865ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (166ms)
+			ProcessInitializeOnLoadAttributes (403ms)
+			ProcessInitializeOnLoadMethodAttributes (262ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 6.98 ms, found 5 plugins.
+Preloading 1 native plugins for Editor in 0.12 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5852 unused Assets / (2.8 MB). Loaded Objects now: 6447.
+Memory consumption went from 144.5 MB to 141.7 MB.
+Total: 9.760600 ms (FindLiveObjects: 0.720500 ms CreateObjectMapping: 0.427000 ms MarkObjects: 6.349800 ms  DeleteObjects: 2.262300 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/hit reaction.fbx
-  artifactKey: Guid(47503413f3602c449b5d8a42ba684413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/hit reaction.fbx using Guid(47503413f3602c449b5d8a42ba684413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fadc7d8b953e03924ead94d06ce60a43') in 0.0025382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/rifle run.fbx
-  artifactKey: Guid(0d0d1f3159f2ab44b9b22e6280f1b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/rifle run.fbx using Guid(0d0d1f3159f2ab44b9b22e6280f1b643) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e6a9d7aca3fced6cf88167cc951a3b1b') in 0.004058 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/strafe.fbx
-  artifactKey: Guid(dc57b1a33fe280a4fa3146bfb24c25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/strafe.fbx using Guid(dc57b1a33fe280a4fa3146bfb24c25dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c6c37ee3a283ddcdfd1b3821d99949e') in 0.0036922 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/rifle aiming idle.fbx
-  artifactKey: Guid(b3e6e1047a83b954a9d521edae9e6237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/rifle aiming idle.fbx using Guid(b3e6e1047a83b954a9d521edae9e6237) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5791ee8e498969b4758284303453431b') in 0.0034004 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/strafe left.fbx
-  artifactKey: Guid(061032fde12da0c48b37541753067369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/strafe left.fbx using Guid(061032fde12da0c48b37541753067369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da866bbc5afc96338e64ce6da65eec37') in 0.0026655 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/strafe right.fbx
-  artifactKey: Guid(587d6869fde933f4bbcbc70c6ee9b42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/strafe right.fbx using Guid(587d6869fde933f4bbcbc70c6ee9b42e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '693d06045d5f51434ba49df4b741ff0e') in 0.0030955 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/reloading.fbx
-  artifactKey: Guid(5caef88428bd49d42800ceb604fa1361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/reloading.fbx using Guid(5caef88428bd49d42800ceb604fa1361) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2fd0708ad2a98a606b94d31a5a47fa6') in 0.0051597 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/toss grenade.fbx
-  artifactKey: Guid(57e80074cb93171458ceab3e292add8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/toss grenade.fbx using Guid(57e80074cb93171458ceab3e292add8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9db2135c88153c5beeb70140fceb6aba') in 0.0036382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/run backwards.fbx
-  artifactKey: Guid(bac085a745c27d34ab323f4b672a6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/run backwards.fbx using Guid(bac085a745c27d34ab323f4b672a6b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2cdb68d56dfca08ab9ab56e86cfcc388') in 0.0053512 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/walking.fbx
-  artifactKey: Guid(5e9b1eb5f91612548a75d439c36a36c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/walking.fbx using Guid(5e9b1eb5f91612548a75d439c36a36c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7b75bd89655a8c4f745c8cef48138b69') in 0.0044502 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/turn left.fbx
-  artifactKey: Guid(95bfe92c9bd11d1499ff72bf1fee24d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/turn left.fbx using Guid(95bfe92c9bd11d1499ff72bf1fee24d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1adbc1ea8f2aaf9e5ac4a1986696777e') in 0.0048268 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/turning right 45 degrees.fbx
-  artifactKey: Guid(36d04ed3e49329841b256ebb2cf8b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/turning right 45 degrees.fbx using Guid(36d04ed3e49329841b256ebb2cf8b08a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c8d7b62d5d71ba7a0b975f98f641e4') in 0.0037139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Scripts/Lab7/Basic Shooter Pack/rifle jump.fbx
-  artifactKey: Guid(85c91ec477cee2749b146978cba4aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Lab7/Basic Shooter Pack/rifle jump.fbx using Guid(85c91ec477cee2749b146978cba4aa36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61d34fc2f48c987ba930562026264509') in 0.0037751 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0

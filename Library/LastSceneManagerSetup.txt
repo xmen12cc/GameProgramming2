@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/VectorScene.unity
+- path: Assets/Scenes/GOAPScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
